@@ -5,7 +5,7 @@ Using OpenCore version 1.0.8 and currently it's still on progress.
 > [!NOTE]
 > **This project is shared only for my side hobby just for fun and not intended for a serious project.*
 
-## Dell Latitude 5400 Laptop Specifications
+## Dell Latitude 5400 Specifications
 | **Components** | **Name** |
 | -------------- | -------- |
 | **CPU** | Intel Core i5 8265U |
@@ -18,18 +18,23 @@ Using OpenCore version 1.0.8 and currently it's still on progress.
 | **Display** | Full HD 1920 x 1080 |
 
 ## Current Status
-- Successfully installed with no problem.
-- Keyboard and trackpad works (scrolling with trackpad not working).
-- Wifi still need testing.
-- LAN work normally.
-- GPU metal supported.
+- Everything works smoothly.
+- Keyboard and trackpad works.
+- Wifi is supported without Heliport.
+- LAN work fine.
+- GPU metal 3 supported.
 
-![MacOS Sequoia recovery on Dell Latitude 5400](https://idexine.s-ul.eu/u4WKxcdh.jpg)
+## Small Issues
+- Brightness key function not work (use Fn+S and Fn+B to adjust brightness).
+- Bluetooth still not working (still need some fix).
+- HDMI still not tested (will try asap).
+- MicroSD slot still not tested (might need some kext for this).
+- WWAN not tested as i don't have the card (not sure if this still work on newer macos).
 
 ## Next Progress
-- Testing all the functionality.
-- Support for MacOS Tahoe.
+- Support for MacOS Tahoe (might not be planned).
 - Fixing some issues if found.
+- Try to login with real Apple Account.
 - Secure boot support? (not sure).
 
 **Will keep this project updated until everything works normally but, don't expect for this project to be updated daily.**
