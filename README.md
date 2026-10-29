@@ -1,9 +1,9 @@
 # Dell Latitude 5400 Hackintosh
-OpenCore EFI configuration to boot MacOS Sequoia (might also support for older MacOS) on Dell Latitude 5400. \
-Using OpenCore version 1.0.8 and currently it's still on progress.
+OpenCore EFI configuration to boot MacOS Sequoia on Dell Latitude 5400. \
+Using OpenCore version 1.0.8.
 
 > [!NOTE]
-> **This project is shared only for my side hobby just for fun and not intended for a serious project.*
+> **Since this is only a dumb project by me to try hackintoshing my Dell Latitude 5400 because why not? I'll be not updating the OC EFI file anymore. But the last updated EFI file is ready to use anyway.**
 
 ## Dell Latitude 5400 Specifications
 | **Components** | **Name** |
@@ -15,26 +15,18 @@ Using OpenCore version 1.0.8 and currently it's still on progress.
 | **Ethernet** | Intel Gigabit I219-V |
 | **Wi-Fi** | Intel Wireless AC 9560 |
 | **Audio** | Realtek ALC3204 |
-| **Display** | Full HD 1920 x 1080 |
+| **OS** | MacOS Sequoia |
 
-## Current Status
-- Everything works smoothly.
-- Keyboard and trackpad works.
-- Wifi is supported without Heliport.
-- LAN work fine.
-- GPU metal 3 supported.
+## What's Working
+- iGPU hardware acceleration.
+- Keyboard and trackpad including gestures.
+- Native Wi-Fi without heliport.
+- Onboard LAN.
+- Built-in speaker.
+- Built-in webcam.
 
-## Small Issues
-- Brightness key function not work (use Fn+S and Fn+B to adjust brightness).
-- Bluetooth still not working (still need some fix).
-- HDMI still not tested (will try asap).
-- MicroSD slot still not tested (might need some kext for this).
-- WWAN not tested as i don't have the card (not sure if this still work on newer macos).
-
-## Next Progress
-- Support for MacOS Tahoe (might not be planned).
-- Fixing some issues if found.
-- Try to login with real Apple Account.
-- Secure boot support? (not sure).
-
-**Will keep this project updated until everything works normally but, don't expect for this project to be updated daily.**
+## What's not working
+- HDMI output (not sure about the type c DP output).
+- Bluetooth.
+- MicroSD slot.
+- Hibernation.
